@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Proposal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="css/proposal_style.css" type="text/css" rel="stylesheet"/>
+    
+  </head>
+    
+  <body>
+      
+<!--NAVIGATION-->
+    <header class="container">
+        <nav class="navbar navbar-expand-md justify-content-between">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse dual-nav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link pl-0" href="work.html">Work <span class="sr-only">Work</span></a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="process.html">Process</a>
+            </li>
+        </ul>
+    </div>
+	<div class="brand">	
+		<a href="index.html" class="navbar-brand mr-0">Elicit.Designs</a></div>
+    <div class="navbar-collapse collapse dual-nav">
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+			<li class="divider-vertical">&#124;</li>
+            <li class="nav-item">
+                <a class="nav-link" href="proposal.html">Proposal</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    </header>
+      
+        
+      
+      
+<!--heading-->      
+      <div classs="row">
+        <div class="col-sm-12">
+          <h1 class="title">Please fill out<br>our short form.</h1></div>    
+      </div>
+        
+    
+      
+ 
+			  
+	<!--CONTACT FORM-->		  
+			  
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-sm-12">
+
+			<h3 class="rowspace">Tell us about yourself..</h3>  
+			  
+            <form id="contact-form" method="post" action="proposal.php" role="form" data-toggle="validator">
+
+              <div class="messages"></div>
+
+              <div class="controls">
+
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+						
+						<div class="row">
+						  <div class="col-sm-6 contactinfo">
+                            <label for="form_name" class="question">Name *</label></div>
+						      <div class="col-sm-6">
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your full name" required="required" data-error="Full name is required.">
+								  <div class="help-block with-errors"></div>
+							  </div>
+					     </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+					  <div class="row">
+					    <div class="col-sm-6 contactinfo">
+							<label for="form_companyname" class="question">Company Name *</label></div>
+						<div class="col-sm-6">
+                          <input id="form_companyname" type="text" name="companyname" class="form-control" placeholder="Please enter your company name" required="required" data-error="Company name is required.">
+                          <div class="help-block with-errors"></div>
+						</div>
+					  </div>
+                    </div>
+                  </div>
+                </div>
+				  
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+						
+						<div class="row">
+						  <div class="col-sm-6 contactinfo">
+                            <label for="form_email" class="question">Email *</label></div>
+						      <div class="col-sm-6">
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email address" required="required" data-error="Valid email is required.">
+								  <div class="help-block with-errors"></div>
+							  </div>
+					     </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+					  <div class="row">
+					    <div class="col-sm-6 contactinfo">
+							<label for="form_phone" class="question">Phone *</label></div>
+						<div class="col-sm-6">
+                          <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number">
+                          <div class="help-block with-errors"></div>
+						</div>
+					  </div>
+                    </div>
+                  </div>
+                </div>
+				
+				  <h3 class="rowspace">Now some info on your project..</h3>  
+				  
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                    <label for="form_message" class="question">Tell us what you need *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Let us know any problems you are experiencing" rows="7" required="required" data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+				</div>
+				
+				<div class="row">
+                  <div class="col-sm-12">
+                    <div class="form-group">
+					  <label class="question">How can we help?</label>
+					  <small class="text-muted form-text helptext">Pick as many as you like.</small>
+                      <div class="row">
+                        <div class="col-sm-3">
+                    	  <div class="checkbox">
+                             <label>
+                              <input type="checkbox" id="terms">Ux/UI
+                             </label>
+					      </div>
+						</div>
+						<div class="col-sm-3">
+                    	  <div class="checkbox">
+                             <label>
+                              <input type="checkbox" id="terms">Interactive Design
+                             </label>
+					      </div>
+						  </div>
+						  <div class="col-sm-3">
+                    	    <div class="checkbox">
+                              <label>
+                              <input type="checkbox" id="terms">Responsive Design
+                              </label>
+					        </div>
+						  </div>
+						  <div class="col-sm-3">
+                    	    <div class="checkbox">
+                              <label>
+                              <input type="checkbox" id="terms">Web Development
+                              </label>
+					        </div>
+						</div> 
+					  </div>
+                    
+						
+					  <div class="row">
+                        <div class="col-sm-3">
+                    	  <div class="checkbox">
+                             <label>
+                              <input type="checkbox" id="terms">E-commerce
+                             </label>
+					      </div>
+						</div>
+						<div class="col-sm-3">
+                    	  <div class="checkbox">
+                             <label>
+                              <input type="checkbox" id="terms">SEO
+                             </label>
+					      </div>
+						  </div>
+						  <div class="col-sm-3">
+                    	    <div class="checkbox">
+                              <label>
+                              <input type="checkbox" id="terms">PPC
+                              </label>
+					        </div>
+						  </div>
+						  <div class="col-sm-3">
+                    	    <div class="checkbox">
+                              <label>
+                              <input type="checkbox" id="terms">Analytics
+                              </label>
+					        </div>
+						</div> 
+					  </div>
+                    </div>
+                  </div>
+				</div>
+				
+				  
+			<div class="row questionblock">
+			  <div class="col-sm-12">
+				<div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+						
+						<div class="row">
+						  <div class="col-sm-6 labeltype">
+                            <label for="form_startdate" class="question">When would you like to start? *</label></div>
+						      <div class="col-sm-6">
+                                <input id="form_startdate" type="text" name="startdate" class="form-control" placeholder="Enter a date or amount of days" required="required" data-error="Full name is required.">
+								  <div class="help-block with-errors"></div>
+							  </div>
+					     </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+					  <div class="row">
+					    <div class="col-sm-6 labeltype">
+							<label for="form_deadline" class="question">Do you have a deadline? *</label></div>
+						<div class="col-sm-6">
+                          <input id="form_deadline" type="text" name="deadline" class="form-control" placeholder="Enter date or amount of days" required="required" data-error="Company name is required.">
+                          <div class="help-block with-errors"></div>
+						</div>
+					  </div>
+                    </div>
+                  </div>
+                </div>
+				  
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+						
+						<div class="row">
+						  <div class="col-sm-6 labeltype">
+                            <label for="form_budget" class="question">What is your budget? *</label></div>
+						      <div class="col-sm-6">
+                                <input id="form_budget" type="text" name="budget" class="form-control" placeholder="Enter your budget" required="required" data-error="Valid email is required.">
+								  <div class="help-block with-errors"></div>
+							  </div>
+					     </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+					  <div class="row">
+					    <div class="col-sm-6 labeltype">
+							<label for="form_select" class="question">How did you hear about us? *</label></div>
+						<div class="col-sm-6">
+                          <select class="form-control" id="select">
+                            <option>Choose..</option>
+                            <option>Craigslist</option>
+                            <option>Google</option>
+                            <option>Referral</option>
+                            <option>Other</option>
+                          </select>
+                          <div class="help-block with-errors"></div>
+						</div>
+					  </div>
+                    </div>
+                  </div>
+                </div>
+			  </div>
+		    </div>
+		
+				  
+		
+	<h3 class="rowspace">Provide your project brief or RFP</h3> 
+	
+				  
+		      <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                    <textarea id="form_message" name="projectbrief" class="form-control" placeholder="Tell us the details of your project" rows="10" ></textarea>
+                    </div>
+                  </div>
+			      
+			
+		          <div class="col-sm-6">
+					<div class="row mx-auto">
+					  <div class="col-sm-5 ">
+						  <h1 class="or">OR</h1>
+					  </div>
+					   <div class="col-sm-7 mx-auto d-block">
+					     <div class="form-group attachment">
+                         <label class="custom-file">
+                           <input type="file" id="file2" class="custom-file-input">
+                           <span class="custom-file-control"></span>
+                         </label>
+                         </div>
+          	           </div>
+					</div>
+			      </div>
+			
+		          <div class="col-sm-12 text-center rowspace">
+                    <input type="submit" class="btn btn-success btn-send" value="Submit inquiry">				
+                  </div>
+		       </div>
+				
+				  
+		  
+               <div class="row">
+                 <div class="col-sm-12">
+                  <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                 </div>
+               </div>
+          </div>
+        </form> 
+
+          </div>
+
+        </div>
+
+      </div>
+      
+
+            
+     
+      
+      
+  
+      
+      
+      
+      
+      
+      
+ 
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="validator.js"></script>
+        <script src="js/BsProposal_main.js"></script>
+  </body>
+    
+</html>

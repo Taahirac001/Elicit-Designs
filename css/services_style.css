@@ -1,0 +1,409 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	
+    font-family: Palatino, 'Palatino Linotype', serif;
+    background-color: white;
+    color: black;
+    
+}
+
+a {
+    all: unset;
+}
+
+
+.rowspace {
+	margin-bottom: 3rem;
+}
+
+
+
+
+
+/*NAVIGATION*/
+
+
+
+.navbar-toggler-icon {
+	
+	background-color: black;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+.divider-vertical {
+	padding-top: .34rem;
+	font-size: 1.2rem;
+	color: black;
+	
+}
+
+
+
+
+/*HEADING*/
+
+.title{
+	text-align: center;
+    font-size: 4rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	
+}
+
+.heading1 {
+	
+}
+
+
+
+
+
+/*SERVICES-intro*/
+
+
+.intro h1 {
+    text-align: center;
+}
+
+hr {
+	border: .1rem solid black;
+	width: 5.5%;
+	margin-top: 0rem;
+}
+
+.iconimg {
+	overflow: hidden;
+	width: 90%;
+}
+
+h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+.iconblurb {
+	font-size: 
+}
+
+
+.expertise {
+	border: .1rem solid black;
+	width: 50%;
+	padding: 2rem 0;
+	margin-top: 1.5rem;
+	margin-bottom: 3rem;
+	
+}
+.expertise h5 {
+	padding-top: .8rem;
+}
+
+.expertise-p {
+	margin-left: -1.5rem;
+}
+
+.sliderheading {
+	text-align: center;
+	padding-top: 4rem;
+}
+
+.carousel h1, .carousel h2  {
+	text-align: center;
+}
+
+
+
+.carousel-content {
+	padding: 4rem 2rem;
+	background-color: gainsboro;
+	margin-right: -1rem;
+}
+
+
+
+.leftarrow {
+  width: 4%;
+  margin-left: -3rem;
+}
+
+.fa-chevron-left {
+	color: black;
+	margin-left: -1rem;
+}
+
+.rightarrow {
+	width: 6%;
+	margin-right: -3rem;
+}
+
+.fa-chevron-right {
+	color: black;
+	margin-left: -1rem;
+}
+
+.featuredclient {
+	padding: 7rem 0;
+}
+
+.featuredclient h3{
+	text-align: left;
+	padding-top: .5rem;
+}
+
+
+
+
+
+
+/*CTA*/
+
+.cta {
+	text-align: center;
+	padding: 6rem 0;
+}
+
+.cta:hover {
+	background-color: black;
+	color: white;
+}
+
+
+
+.btncta {
+	width: 100%;
+}
+
+
+
+
+/*FOOTER*/
+
+
+
+
+.footer {
+	background-color: #202324;
+	color: white;
+	padding-top: 2rem;
+	border-top-color: white;
+	border-top: 
+}
+
+.stayinformed h1 {
+	text-align: center;
+}
+
+
+.stayinformed p {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+.stayinformed ul {
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+/*CONTACT US*/
+
+
+.contact  {
+	text-align: center;
+
+}
+
+.address {
+	margin-top: 1rem;
+	
+}
+.contact ul {
+	list-style: none;
+}
+
+
+
+
+
+#iconmail, #iconphone {
+    margin-right: .5rem;
+    
+}
+
+
+.social img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 1rem;
+}
+
+.copyright {
+	text-align: center;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+/*FOR MOBILE*/
+
+
+@media (max-width: 480px) {
+	.divider-vertical {
+		display: none;
+	}
+	.rowspace {
+		margin-bottom: 1rem;
+	}
+	
+	.title {
+		font-size: 1.8rem;
+		padding: 1rem;
+	}
+	
+	.intro h1 {
+		font-size: 1.5rem;
+	}
+	
+	.service-type {
+		font-size: 1.5rem;
+	}
+	
+	.expertise {
+		width: 100%;
+		margin-left: .1rem;
+		padding: 0;
+	}
+	.expertise h5 {
+		padding: 0;
+		font-weight: bold;
+	}
+	.expertise-p  {
+		margin-left: 1rem;
+		font-size: .9rem;
+	}
+	
+	.featuredclient h2 {
+		font-size: 1.8rem
+	}
+	
+	.featuredclient h3 {
+		font-size: 1.3rem;
+		width: 50%;
+	}
+	
+	.featuredbtn {
+		width: 50%;
+	}
+	.featuredclient {
+		padding: 2rem 0;
+	}
+	
+
+	.carousel {
+		width: 100%
+	}
+	.carousel img {
+		display: none !important;
+	}
+	.carousel i {
+		margin: 0;
+		padding: 0;
+		display: none;
+	}
+	
+	.rightarrow {
+		margin: auto;
+		color: black;
+		padding: 0;
+	}
+	.leftarrow {
+		margin: 0;
+		width: 1rem;
+	}
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		background-color: black;
+	}
+		
+	
+	
+
+	
+	
+	
+	/*MOBILE FOOTER*/
+	
+	.footer {
+	background-color: #202324;
+	color: white;
+	padding-top: 2rem;
+	border-top-color: white;
+	border-top: 
+    }
+
+    .stayinformed h1 {
+	text-align: center;
+	font-size: 1.5rem;
+    }
+
+
+    .stayinformed p {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+    }
+
+    .mobileinformed {
+	list-style: none;
+    }
+
+
+/*MOBILE CONTACT US*/
+
+
+    .contact  {
+	font-size: .8rem;
+	text-align: left;
+    }
+	.contact h1 {
+		font-size: 1.5rem;
+	}
+    .address {
+	margin-top: 1rem;
+	
+    }
+    .contact ul {
+	list-style: none;
+    }
+    #iconmail, #iconphone {
+	width: 5%;
+    margin-right: .5rem;
+    
+    }
+    .social img {
+    width: 5% !important;
+	height: .9rem !important;
+    margin: 0 1rem;
+    }
+    .copyright {
+	font-size: .8rem;
+	text-align: center;
+    padding-top: 1rem;
+    }
+}
+

@@ -1,0 +1,140 @@
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Palatino, 'Palatino Linotype', serif;
+    background-color: white;
+    color: black;
+    
+}
+
+a {
+    all: unset;
+}
+
+h2 {
+    font-weight: bolder;
+	text-align: center;
+}
+
+.rowspace {
+	margin: 2rem 0;
+}
+
+@media (max-width: 480px) {
+    .divider-vertical {
+		display: none;
+	}
+}
+
+
+/*NAVIGATION*/
+
+.navbar-toggler-icon {
+	
+	background-color: black;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+.divider-vertical {
+	padding-top: .34rem;
+	font-size: 1.2rem;
+	color: black;
+	
+}
+
+
+
+
+/*HEADING*/
+
+.title{
+	text-align: center;
+    font-size: 4rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+
+
+
+/*form*/
+
+
+.contactinfo {
+	margin-right: -5rem;
+}
+
+.question {
+	font-size: 1.1rem;
+}
+
+.helptext {
+	font-size: .8rem;
+	margin-top: -.8rem;
+}
+
+.questionblock {
+	margin-top: 1rem;
+}
+
+
+.or{
+	text-align: center;
+}
+
+
+.or, .attachment {
+	padding-top: 5rem;
+	
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
